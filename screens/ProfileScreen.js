@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { StyleSheet, View, Text } from "react-native";
 import themeContext from "../config/themeContext";
 
-const Screen2 = () => {
+const ProfileScreen = () => {
   const theme = useContext(themeContext);
   return (
     <View style={[styles.container, { backgroundColor: theme.background }]}>
@@ -26,4 +26,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Screen2;
+export default ProfileScreen;

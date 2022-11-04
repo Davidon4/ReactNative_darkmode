@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { StyleSheet } from "react-native";
 import { EventRegister } from "react-native-event-listeners";
 import themeContext from "./config/themeContext";
 import theme from "./config/theme";
@@ -55,15 +54,3 @@ export default function App() {
     </themeContext.Provider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  text: {
-    marginBottom: 20,
-  },
-});

@@ -4,7 +4,7 @@ import themeContext from "../config/themeContext";
 
 import { EventRegister } from "react-native-event-listeners";
 
-const Screen1 = ({ navigation }) => {
+const HomeScreen = ({ navigation }) => {
   const theme = useContext(themeContext);
   const [mode, setMode] = useState(false);
   return (
@@ -45,4 +45,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Screen1;
+export default HomeScreen;
